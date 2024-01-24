@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var celsiusLabel: UILabel!
+    @IBOutlet weak var celsiusLabel: UILabel! //цельсия
     @IBOutlet weak var farenheitLabel: UILabel!
     @IBOutlet weak var slider: UISlider!{
         didSet{
