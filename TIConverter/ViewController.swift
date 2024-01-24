@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var celsiusLabel: UILabel! //цельсия
-    @IBOutlet weak var farenheitLabel: UILabel!
+    @IBOutlet weak var farenheitLabel: UILabel! //fefa
     @IBOutlet weak var slider: UISlider!{
         didSet{
             slider.maximumValue = 100
